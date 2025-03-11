@@ -46,8 +46,8 @@
             <div class="separador row mx-auto my-3 py-3">
                 <h5 class="titulo-area">DADOS PESSOAIS<i class="fa-solid fa-address-card ms-2 cor1"></i></h5>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-1 my-2">
-                    <label for="cpf" class="form-label">CPF</label>
-                    <input type="number" placeholder="xxx.xxx.xxx-xx" class="form-control" id="cpf">
+                    <label for="cpf" class="form-label">CPF <span style="color:red"> *</span></label>
+                    <input type="number" placeholder="xxx.xxx.xxx-xx" class="form-control" id="cpf" required>
                 </div>
 
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 my-2">
@@ -56,8 +56,8 @@
                 </div>
 
                 <div class="col-12 my-2">
-                    <label for="name" class="form-label">Nome Completo</label>
-                    <input type="text" class="form-control" id="name">
+                    <label for="name" class="form-label">Nome Completo<span style="color:red"> *</span></label>
+                    <input type="text" class="form-control" required id="name">
                 </div>
 
                
@@ -124,13 +124,13 @@
             <div class="separador row mx-auto my-3 py-3">
                 <h5 class="titulo-area">CONTATO<i class=" ms-2 fa-solid fa-address-book cor1"></i></h5>
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 my-2">
-                    <label for="inputEmail4" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="inputEmail4">
+                    <label for="inputEmail4" class="form-label">Email<span style="color:red"> *</span></label>
+                    <input type="email" class="form-control" id="inputEmail4" required>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 my-2">
+                <!-- <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 my-2">
                     <label for="inputPassword4" class="form-label">Senha</label>
                     <input type="password" class="form-control" id="inputPassword4">
-                </div>
+                </div> -->
                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 my-2">
                     <label for="celular" class="form-label">Celular</label>
                     <input type="number" placeholder="(xx) x xxxx-xxxx" class="form-control" id="celular">
@@ -215,7 +215,7 @@
             <div class="separador row mx-auto col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12 my-3 py-3">
                 <h5 class="titulo-area">SAÚDE<i class="cor1 fa-solid fa-suitcase-medical ms-2"></i></h5>
 
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 row m-0">
+                <div class="col-xl-6  col-lg-12 col-md-12 col-sm-12 col-xs-12 row m-0">
                     <div class="p-0 my-auto">
                         <span>Reação alérgica a algum medicamento? </span>
                     </div>
@@ -230,11 +230,11 @@
                     </div>
 
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 my-2">
+                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 my-2">
                     <label for="medicamentos" class="form-label">Informe o medicamento</label>
                     <input type="text" placeholder="" class="form-control" id="medicamentos">
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 row m-0">
+                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 row m-0">
                     <div class="p-0 my-auto">
                         <span>Algum problema de saúde? </span>
                     </div>
@@ -248,11 +248,11 @@
                         <label class="form-check-label" for="problemanao">Não</label>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 my-2">
+                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 my-2">
                     <label for="medicamentos" class="form-label">Informe qual o problema de saúde</label>
                     <input type="text" placeholder="" class="form-control" id="medicamentos" >
                 </div>
-                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-xs-12 row mx-0  my-2">
+                <div class="col-xl-6 col-lg-12 col-md-12 col-sm-12 col-xs-12 row mx-0  my-2">
                     <div class="p-0 my-auto ">
                         <span>Faz uso de alguma medicação controlada? </span>
                     </div>
