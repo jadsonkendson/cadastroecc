@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>App de Inscrição</title>
+    <link rel="stylesheet" type="text/css" href="assets/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.0/firebase-firestore.js"></script>
+</head>
+
+<body>
+    <!-- <h1>App de Inscrição</h1> -->
+    <form id="signup-form">
+        <div class="card mb-3" style="max-width: 18rem;">
+            <div class="card-header"><h4>Entrar</h3></div>
+            <div class="card-body">
+              <div>
+                <i class="fa-regular fa-user"></i> <input class="my-2" type="email" id="email" placeholder="Email" required>
+                  <input class="my-2" type="password" id="password" placeholder="Senha" required>
+                  <!-- <input class="my-2" type="text" id="username" placeholder="Nome de Usuário" required> -->
+              </div>
+            </div>
+        <div class="col-12 p-2 text-center">
+            <button type="submit" style="width: 150px;" class="btn btn-info" >Entrar</button>
+        </div>
+        <div  class="col-12 text-center" >
+            <a href="assets/cadastro.html">Cadastre-se</a>
+        </div>
+    </form>
+
+    <script src="assets/app.js"></script>
+</body>
+
+</html>
